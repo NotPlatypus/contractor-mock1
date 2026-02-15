@@ -1,0 +1,39 @@
+# robots.txt for Premier Home Contractors
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin areas (if you add them later)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Disallow sensitive files
+Disallow: /*.htaccess$
+Disallow: /*.log$
+
+# Crawl-delay (optional, use if site gets crawled too heavily)
+# Crawl-delay: 10
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://premierhomecontractors.com/sitemap.xml
+
+# Common bots rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+# User-agent: BadBot
+# Disallow: /
+
+# User-agent: Scrapy
+# Disallow: /
